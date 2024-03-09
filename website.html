@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmers</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="general0.css">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="header-1.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="sidebar-r.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="amazon-header.css">
+    <link rel="stylesheet" href="amazon.css">
+    <link rel="stylesheet" href="main.css">
+
+  </head>
+  <body>
+
+    <div class="header-1">
+      <div class="left-1">
+        <a href="https://www.facebook.com/ayush.borhade?mibextid=ZbWKwL">
+          <img class="facebook" src="facebook.png">
+        </a>
+        <a href="https://x.com/x_alpha_exd?t=wfkX0zl-SSagxd1u3qgzrw&s=08">
+          <img class="twitter" src="twitter.png">
+        </a>
+        <a href="https://www.instagram.com/x_.alpha_x?igsh=eGZtY3NqZXR1MTV3">
+          <img class="instagram" src="instagram-png-logo-11545512103yiiajkgr2i.png">
+        </a>
+        <a href="https://www.linkedin.com/in/ayush-borhade-831231245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+          <img class="linkedin" src="linkedin-logo-linkedin-icon-transparent-free-png.webp">
+        </a>
+      </div>
+      <div class="right-1">
+        <a href="https://has-tar.github.io/GovSchGen/website">
+          <div class="upload-icon-con-1">
+          <button class="button-main-content">
+            Skip to main content
+          </button>
+        </div>
+        </a>
+        <a href="https://has-tar.github.io/LoginPage/main">
+          <div class="apps-icon-con-1">
+          <button class="button-sign-in">
+            Sign In
+          </button>          
+        </div>
+        </a>
+        <a href="https://has-tar.github.io/GovSchGen/website">
+          <div class="noti-icon-con-1">
+          <button class="button-register">
+            Register
+          </button>          
+        </div>
+        </a>
+        <a href="">
+          <div class="channel-icon-con-1">
+          <button class="button-hindi">
+            हिंदी
+          </button>
+        </div>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="header">
+      <a href="https://www.india.gov.in/">
+       <div class="left">
+        <img class="menu" src="logo_1.png">
+      </div> 
+      </a>
+      <div class="right">
+        <a href="https://www.india.gov.in/topics">
+          <div class="nav1">
+          <button class="button-nav1">
+            <img class="img-nav1" src="nav1.png">
+          </button>
+          <div class="tooltip">TOPICS</div>
+        </div>
+        </a>
+        <a href="https://services.india.gov.in/">
+           <div class="nav2">
+          <button class="button-nav2">
+            <img class="img-nav2" src="nav2.png">
+          </button>
+          <div class="tooltip">SERVICES</div>
+        </div>
+        </a>
+        <a href="https://www.india.gov.in/my-government">
+           <div class="nav3">
+          <button class="button-nav3">
+            <img class="img-nav3" src="nav3.png"> 
+          </button>
+          <div class="tooltip">MY GOVERNMENT</div>
+        </div>
+        </a>
+        <a href="https://www.india.gov.in/people-groups">
+           <div class="nav4">
+          <button class="button-nav4">
+            <img class="img-nav4" src="nav4.png">                       
+          </button>
+          <div class="tooltip">PEOPLE GROUPS</div>
+        </div>
+        </a>
+        <a href="https://www.india.gov.in/india-glance">
+          <div class="nav4">
+          <button class="button-nav5">
+            <img class="img-nav5" src="nav5.png">           
+          </button>
+          <div class="tooltip">INDIA AT A GLANCE</div>
+        </div>
+        </a>
+      </div>
+    </div>
+
+
+
+
+    <div class="main">
+        <div class="container">
+            <h2>Farmer Information Form</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information:</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone" required>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" required>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Land Details:</legend>
+                    <label for="land_size">Land Size (in acres):</label>
+                    <input type="number" id="land_size" name="land_size" required>
+                    <label for="land_type">Land Type:</label>
+                    <select id="land_type" name="land_type" required>
+                        <option value="irrigated">Irrigated</option>
+                        <option value="rainfed">Rainfed</option>
+                    </select>
+                    <label for="crops">Crops Currently Cultivated:</label>
+                    <input type="text" id="crops" name="crops" required>
+                    <label for="yield_data">Previous Crop Yield Data:</label>
+                    <input type="text" id="yield_data" name="yield_data" required>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Income and Financial Information:</legend>
+                    <label for="annual_income">Annual Income from Farming:</label>
+                    <input type="text" id="annual_income" name="annual_income" required>
+                    <label for="expenses">Expenses Related to Farming:</label>
+                    <input type="text" id="expenses" name="expenses" required>
+                    <label for="financial_challenges">Financial Constraints or Challenges:</label>
+                    <input type="text" id="financial_challenges" name="financial_challenges" required>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Current Agricultural Practices:</legend>
+                    <label for="farming_type">Type of Farming:</label>
+                    <select id="farming_type" name="farming_type" required>
+                        <option value="conventional">Conventional</option>
+                        <option value="organic">Organic</option>
+                    </select>
+                    <label for="farming_techniques">Farming Techniques and Methods Employed:</label>
+                    <input type="text" id="farming_techniques" name="farming_techniques" required>
+                    <label for="irrigation_methods">Irrigation Methods Used:</label>
+                    <input type="text" id="irrigation_methods" name="irrigation_methods" required>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Crop-specific Details:</legend>
+                    <label for="main_crops">Main Crops Grown:</label>
+                    <input type="text" id="main_crops" name="main_crops" required>
+                    <label for="crop_challenges">Specific Challenges Faced with Those Crops:</label>
+                    <input type="text" id="crop_challenges" name="crop_challenges" required>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Insurance Coverage:</legend>
+                    <label for="insurance_coverage">Crop Insurance Coverage:</label>
+                    <select id="insurance_coverage" name="insurance_coverage" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                    <label for="insurance_experiences">Previous Experiences with Crop Losses and Insurance Claims:</label>
+                    <input type="text" id="insurance_experiences" name="insurance_experiences" required>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Infrastructure and Resources:</legend>
+                    <label for="water_resources">Availability of Water Resources:</label>
+                    <input type="text" id="water_resources" name="water_resources" required>
+                    <label for="equipment_owned">Farming Equipment and Machinery Owned:</label>
+                    <input type="text" id="equipment_owned" name="equipment_owned" required>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Training and Education:</legend>
+                    <label for="education_level">Farmer's Level of Education:</label>
+                    <input type="text" id="education_level" name="education_level" required>
+                    <label for="training_received">Previous Training Received in Agriculture:</label>
+                    <input type="text" id="training_received" name="training_received" required>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Specific Needs or Challenges:</legend>
+                    <label for="specific_challenges">Specific Challenges Faced in Farming:</label>
+                    <input type="text" id="specific_challenges" name="specific_challenges" required>
+                    <label for="assistance_needed">Areas Where the Farmer Seeks Assistance or Improvement:</label>
+                    <input type="text" id="assistance_needed" name="assistance_needed" required>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Preferences and Goals:</legend>
+                    <label for="scheme_preferences">Preferences for Certain Types of Schemes:</label>
+                    <input type="text" id="scheme_preferences" name="scheme_preferences" required>
+                    <label for="long_term_goals">Long-term Goals and Aspirations in Agriculture:</label>
+                    <input type="text" id="long_term_goals" name="long_term_goals" required>
+                </fieldset>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
